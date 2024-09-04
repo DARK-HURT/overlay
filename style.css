@@ -18,7 +18,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('769704031451887105.png'); /* Reemplaza con la ruta de tu imagen de topografía */
+            background-image: url('image.png'); /* Reemplaza con la ruta de tu imagen de topografía */
             background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
             animation: moveBackground 30s linear infinite; /* Animación para mover el fondo */
         }
