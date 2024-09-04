@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF; /* Fondo blanco */
+}
+
+.animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('topografia.png'); /* Reemplaza con la ruta de tu imagen de topografía */
+    background-size: 200%;
+    animation: moveBackground 15s linear infinite; /* Animación para mover el fondo */
+}
+
+/* Animación de movimiento del fondo */
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
